@@ -115,7 +115,7 @@ const Home: React.FC = () => {
               <div className="bg-white rounded-2xl shadow-lg p-4">
                <div className="w-full aspect-[9/16] rounded-xl overflow-hidden shadow-inner">
   <img
-    src="/insta-ss3.jpg"
+    src="/insta-ss4.jpg"
     alt="how to earn $10k/month"
     className="w-full h-full object-cover"
   />
@@ -234,58 +234,61 @@ const Home: React.FC = () => {
 
             {/* First Product Preview (2:1 Ratio) */}
             <div className="mb-12 mt-8">
-              <div className="w-full max-w-2xl mx-auto">
-                <div className="w-full aspect-[2/1] bg-[#F1F5FF] rounded-xl shadow-lg flex items-center justify-center">
-                  <div className="text-center p-6">
-                    <div className="text-4xl mb-4">🎬</div>
-                    <p className="text-gray-600 font-medium">Product Preview</p>
-                    <p className="text-sm text-gray-500 mt-2">2:1 Aspect Ratio</p>
-                  </div>
-                </div>
-                <div className="bg-white rounded-b-xl shadow-md py-3 px-4 text-center">
-                  <h4 className="text-base md:text-lg font-bold text-[#111827]">
-                    100+ Ready-to-Post Viral ASMR Reels
-                  </h4>
-                </div>
-              </div>
-            </div>
+  <div className="w-full max-w-2xl mx-auto">
+    {/* Product Preview Image */}
+    <div className="w-full aspect-[2/1] rounded-t-xl overflow-hidden shadow-lg">
+      <img
+        src="/product-banner.webp"
+        alt="Product Preview"
+        className="w-full h-full object-cover"
+      />
+    </div>
+    {/* Title Below the Image */}
+    <div className="bg-white rounded-b-xl shadow-md py-3 px-4 text-center">
+      <h4 className="text-base md:text-lg font-bold text-[#111827]">
+        100+ Ready-to-Post Viral ASMR Reels
+      </h4>
+    </div>
+  </div>
+</div>
 
-            {/* 10 Product Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {[
-                "100+ AI ASMR Prompts for Viral reels",
-                "$10K/Month Monetization Strategy with Proof",
-                "Go Viral on Instagram & YouTube Shorts",
-                "3 AI ASMR Scripts That Hit 1M+ Views",
-                "AI ASMR Business Starter Checklist (PDF)",
-                "Niche Brainstorming Prompt Kit",
-                "30 Viral Caption Templates",
-                "Canva Branding Kit (Assets)",
-                "Free Tool Stack + Automation Blueprint",
-                "Lifetime Telegram Community Access"
-              ].map((productName, index) => (
-                <div
-                  key={index}
-                  className="group cursor-pointer transition-transform duration-200 hover:-translate-y-1 w-full"
-                >
-                  <div className="w-full aspect-square bg-[#E0E7FF] rounded-xl shadow-lg flex items-center justify-center">
-                    <div className="text-center p-4">
-                      <div className="text-3xl mb-3">📦</div>
-                      <p className="text-gray-600 font-medium text-sm">Product {index + 2}</p>
-                      <p className="text-xs text-gray-500 mt-1">1:1 Ratio</p>
-                    </div>
-                  </div>
-                  <div className="bg-white rounded-b-xl shadow-md py-3 px-3 text-center">
-                    <h4 className="text-base md:text-lg font-bold text-[#111827] leading-tight">
-                      {productName}
-                    </h4>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+
+            {/* 10 Product Grid with Images */}
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+  {[
+    "100+ AI ASMR Prompts for Viral reels",
+    "$10K/Month Monetization Strategy with Proof",
+    "Go Viral by Instagram Reels Growth System ",
+    "Go Viral by YouT Shorts Growth Engine",
+    "AI ASMR Business Starter Checklist (PDF)",
+    "Niche Brainstorming Prompt Kit",
+    "Viral Caption Vault",
+    "Canva Branding Kit (Assets)",
+    "Free Tool Stack + Automation Blueprint",
+    "Lifetime Whatsapp Community Access"
+  ].map((productName, index) => (
+    <div
+      key={index}
+      className="group cursor-pointer transition-transform duration-200 hover:-translate-y-1 w-full"
+    >
+      {/* Image Preview */}
+      <div className="w-full aspect-square rounded-t-xl overflow-hidden shadow-lg">
+        <img
+          src={`/Product-preview${index + 2}.webp`}
+          alt={`Product Preview ${index + 2}`}
+          className="w-full h-full object-cover"
+        />
       </div>
+      {/* Title Box */}
+      <div className="bg-white rounded-b-xl shadow-md py-3 px-3 text-center">
+        <h4 className="text-base md:text-lg font-bold text-[#111827] leading-tight">
+          {productName}
+        </h4>
+      </div>
+    </div>
+  ))}
+</div>
+
 
       {/* Done For You Heading */}
       <div className="mb-4 text-center px-4">
@@ -487,15 +490,16 @@ const Home: React.FC = () => {
         <div className="mb-16 px-4 max-w-4xl mx-auto">
           <div className="w-full bg-gradient-to-b from-[#6C63FF] to-[#3B82F6] rounded-2xl py-12 px-6 text-center">
             {/* Image Upload Space */}
-            <div className="mb-8">
-              <div className="w-32 h-32 mx-auto bg-white/20 rounded-full flex items-center justify-center border-2 border-white/30">
-                <div className="text-center">
-                  <div className="text-3xl mb-2 text-white">🛡️</div>
-                  <p className="text-white text-sm font-medium">Guarantee Badge</p>
-                  <p className="text-white/80 text-xs">Upload Here</p>
-                </div>
-              </div>
-            </div>
+           <div className="mb-8">
+  <div className="w-32 h-32 mx-auto bg-white/20 rounded-full flex items-center justify-center border-2 border-white/30 overflow-hidden">
+    <img
+      src="/guarantee-badge.jpg" // or .png / .jpg as per your file
+      alt="Guarantee Badge"
+      className="w-full h-full object-contain"
+    />
+  </div>
+</div>
+
 
             {/* Heading */}
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
