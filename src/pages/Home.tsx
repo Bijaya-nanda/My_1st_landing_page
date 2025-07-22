@@ -115,7 +115,7 @@ const Home: React.FC = () => {
               <div className="bg-white rounded-2xl shadow-lg p-4">
                <div className="w-full aspect-[9/16] rounded-xl overflow-hidden shadow-inner">
   <img
-    src="/insta-ss3.jpg"
+    src="/insta-ss4.jpg"
     alt="how to earn $10k/month"
     className="w-full h-full object-cover"
   />
