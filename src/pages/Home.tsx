@@ -77,46 +77,50 @@ const Home: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
               {/* Screenshot Placeholder 1 */}
               <div className="bg-white rounded-2xl shadow-lg p-4">
-                <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl shadow-inner flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <div className="text-3xl mb-3">📱</div>
-                    <p className="text-gray-600 font-medium text-sm">Instagram Screenshot 1</p>
-                    <p className="text-xs text-gray-500 mt-1">Mobile 9:16 Ratio</p>
-                  </div>
-                </div>
+                <div className="w-full aspect-[9/16] rounded-xl overflow-hidden shadow-inner">
+  <img
+    src="/Insta-SS1.jpg"
+    alt="AI ASMR KIT"
+    className="w-full h-full object-cover"
+  />
+</div>
+
               </div>
 
               {/* Screenshot Placeholder 2 */}
               <div className="bg-white rounded-2xl shadow-lg p-4">
-                <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl shadow-inner flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <div className="text-3xl mb-3">📱</div>
-                    <p className="text-gray-600 font-medium text-sm">Instagram Screenshot 2</p>
-                    <p className="text-xs text-gray-500 mt-1">Mobile 9:16 Ratio</p>
-                  </div>
-                </div>
+                <div className="w-full aspect-[9/16] rounded-xl overflow-hidden shadow-inner">
+  <img
+    src="/insta-ss2.jpg"
+    alt="Earn money online"
+    className="w-full h-full object-cover"
+  />
+</div>
+
               </div>
 
               {/* Screenshot Placeholder 3 */}
               <div className="bg-white rounded-2xl shadow-lg p-4">
-                <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl shadow-inner flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <div className="text-3xl mb-3">📱</div>
-                    <p className="text-gray-600 font-medium text-sm">Instagram Screenshot 3</p>
-                    <p className="text-xs text-gray-500 mt-1">Mobile 9:16 Ratio</p>
-                  </div>
-                </div>
+                <div className="w-full aspect-[9/16] rounded-xl overflow-hidden shadow-inner">
+  <img
+    src="/insta-ss3.jpg"
+    alt="Viral asmr reels"
+    className="w-full h-full object-cover"
+  />
+</div>
+
               </div>
 
               {/* Screenshot Placeholder 4 */}
               <div className="bg-white rounded-2xl shadow-lg p-4">
-                <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl shadow-inner flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <div className="text-3xl mb-3">📱</div>
-                    <p className="text-gray-600 font-medium text-sm">Instagram Screenshot 4</p>
-                    <p className="text-xs text-gray-500 mt-1">Mobile 9:16 Ratio</p>
-                  </div>
-                </div>
+               <div className="w-full aspect-[9/16] rounded-xl overflow-hidden shadow-inner">
+  <img
+    src="/insta-ss3.jpg"
+    alt="how to earn $10k/month"
+    className="w-full h-full object-cover"
+  />
+</div>
+
               </div>
             </div>
           </div>
