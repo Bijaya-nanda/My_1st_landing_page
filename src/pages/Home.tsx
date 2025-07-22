@@ -259,7 +259,7 @@ const Home: React.FC = () => {
     "100+ AI ASMR Prompts for Viral reels",
     "$10K/Month Monetization Strategy with Proof",
     "Go Viral by Instagram Reels Growth System ",
-    "Go Viral by YouT Shorts Growth Engine",
+    "Go Viral by YouTube Shorts Growth Engine",
     "AI ASMR Business Starter Checklist (PDF)",
     "Niche Brainstorming Prompt Kit",
     "Viral Caption Vault",
@@ -274,7 +274,7 @@ const Home: React.FC = () => {
       {/* Image Preview */}
       <div className="w-full aspect-square rounded-t-xl overflow-hidden shadow-lg">
         <img
-          src={`/Product-preview${index + 2}.webp`}
+          src={`/Product-preview${index + 2}.jpg`}
           alt={`Product Preview ${index + 2}`}
           className="w-full h-full object-cover"
         />
