@@ -232,14 +232,15 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            {/* First Product Preview (2:1 Ratio) */}
+            
+{/* First Product Preview */}
 <div className="mb-12 mt-8">
   <div className="w-full max-w-2xl mx-auto">
-    <div className="w-full aspect-[2/1] rounded-xl overflow-hidden shadow-lg">
+    <div className="w-full rounded-xl overflow-hidden shadow-lg">
       <img
         src="/Product-preview1.jpg"
         alt="Product Preview"
-        className="w-full h-full object-cover"
+        className="w-full h-auto object-contain"
       />
     </div>
     <div className="bg-white rounded-b-xl shadow-md py-3 px-4 text-center">
@@ -251,19 +252,20 @@ const Home: React.FC = () => {
 </div>
 
 
+
             {/* 10 Product Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 "100+ AI ASMR Prompts for Viral reels",
                 "$10K/Month Monetization Strategy with Proof",
-                "Go Viral on Instagram & YouTube Shorts",
-                "3 AI ASMR Scripts That Hit 1M+ Views",
+                "Go Viral by Instagram Growth system",
+                "Go Viral by Youtube shorts Growth Engine",
                 "AI ASMR Business Starter Checklist (PDF)",
                 "Niche Brainstorming Prompt Kit",
-                "30 Viral Caption Templates",
+                "Viral Caption Vault",
                 "Canva Branding Kit (Assets)",
                 "Free Tool Stack + Automation Blueprint",
-                "Lifetime Telegram Community Access"
+                "Lifetime Whatsapp Community Access"
               ].map((productName, index) => (
                 <div
                   key={index}
