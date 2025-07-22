@@ -237,7 +237,7 @@ const Home: React.FC = () => {
   <div className="w-full max-w-2xl mx-auto">
     <div className="w-full aspect-[2/1] rounded-xl overflow-hidden shadow-lg">
       <img
-        src="/Product-preview.jpg"
+        src="/Product-preview1.jpg"
         alt="Product Preview"
         className="w-full h-full object-cover"
       />
