@@ -252,43 +252,41 @@ const Home: React.FC = () => {
 </div>
 
 
-
+            
             {/* 10 Product Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {[
-                "100+ AI ASMR Prompts for Viral reels",
-                "$10K/Month Monetization Strategy with Proof",
-                "Go Viral by Instagram Growth system",
-                "Go Viral by Youtube shorts Growth Engine",
-                "AI ASMR Business Starter Checklist (PDF)",
-                "Niche Brainstorming Prompt Kit",
-                "Viral Caption Vault",
-                "Canva Branding Kit (Assets)",
-                "Free Tool Stack + Automation Blueprint",
-                "Lifetime Whatsapp Community Access"
-              ].map((productName, index) => (
-                <div
-                  key={index}
-                  className="group cursor-pointer transition-transform duration-200 hover:-translate-y-1 w-full"
-                >
-                  <div className="w-full aspect-square bg-[#E0E7FF] rounded-xl shadow-lg flex items-center justify-center">
-                    <div className="text-center p-4">
-                      <div className="text-3xl mb-3">📦</div>
-                      <p className="text-gray-600 font-medium text-sm">Product {index + 2}</p>
-                      <p className="text-xs text-gray-500 mt-1">1:1 Ratio</p>
-                    </div>
-                  </div>
-                  <div className="bg-white rounded-b-xl shadow-md py-3 px-3 text-center">
-                    <h4 className="text-base md:text-lg font-bold text-[#111827] leading-tight">
-                      {productName}
-                    </h4>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+  {[
+    "100+ AI ASMR Prompts for Viral reels",
+    "$10K/Month Monetization Strategy with Proof",
+    "Go Viral by Instagram Growth system",
+    "Go Viral by Youtube shorts Growth Engine",
+    "AI ASMR Business Starter Checklist (PDF)",
+    "Niche Brainstorming Prompt Kit",
+    "Viral Caption Vault",
+    "Canva Branding Kit (Assets)",
+    "Free Tool Stack + Automation Blueprint",
+    "Lifetime Whatsapp Community Access"
+  ].map((productName, index) => (
+    <div
+      key={index}
+      className="group cursor-pointer transition-transform duration-200 hover:-translate-y-1 w-full"
+    >
+      <div className="w-full aspect-square bg-[#E0E7FF] rounded-xl shadow-lg overflow-hidden">
+        <img
+          src={`/Product-preview${index + 2}.webp`}
+          alt={`Product ${index + 2}`}
+          className="w-full h-full object-cover"
+        />
       </div>
+      <div className="bg-white rounded-b-xl shadow-md py-3 px-3 text-center">
+        <h4 className="text-base md:text-lg font-bold text-[#111827] leading-tight">
+          {productName}
+        </h4>
+      </div>
+    </div>
+  ))}
+</div>
+
 
       {/* Done For You Heading */}
       <div className="mb-4 text-center px-4">
