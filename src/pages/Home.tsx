@@ -113,18 +113,14 @@ const Home: React.FC = () => {
 
               {/* Screenshot Placeholder 4 */}
               <div className="bg-white rounded-2xl shadow-lg p-4">
-               <div className="w-full aspect-[9/16] rounded-xl overflow-hidden shadow-inner">
-  <img
-    src="/insta-ss4.jpg"
-    alt="how to earn $10k/month"
-    className="w-full h-full object-cover"
-  />
+  <div className="w-full aspect-[9/16] rounded-xl overflow-hidden shadow-inner">
+    <img
+      src="/insta-ss4.jpg"
+      alt="how to earn $10k/month"
+      className="w-full h-full object-cover"
+    />
+  </div>
 </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
 
         {/* Lifetime Access Banner */}
         <div className="mb-12">
@@ -238,7 +234,7 @@ const Home: React.FC = () => {
     {/* Product Preview Image */}
     <div className="w-full aspect-[2/1] rounded-t-xl overflow-hidden shadow-lg">
       <img
-        src="/product-banner.webp"
+        src="/Product-preview1.jpg"
         alt="Product Preview"
         className="w-full h-full object-cover"
       />
