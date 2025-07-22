@@ -233,22 +233,23 @@ const Home: React.FC = () => {
             </div>
 
             {/* First Product Preview (2:1 Ratio) */}
-            <div className="mb-12 mt-8">
-              <div className="w-full max-w-2xl mx-auto">
-                <div className="w-full aspect-[2/1] bg-[#F1F5FF] rounded-xl shadow-lg flex items-center justify-center">
-                  <div className="text-center p-6">
-                    <div className="text-4xl mb-4">🎬</div>
-                    <p className="text-gray-600 font-medium">Product Preview</p>
-                    <p className="text-sm text-gray-500 mt-2">2:1 Aspect Ratio</p>
-                  </div>
-                </div>
-                <div className="bg-white rounded-b-xl shadow-md py-3 px-4 text-center">
-                  <h4 className="text-base md:text-lg font-bold text-[#111827]">
-                    100+ Ready-to-Post Viral ASMR Reels
-                  </h4>
-                </div>
-              </div>
-            </div>
+<div className="mb-12 mt-8">
+  <div className="w-full max-w-2xl mx-auto">
+    <div className="w-full aspect-[2/1] rounded-xl overflow-hidden shadow-lg">
+      <img
+        src="/Product-preview.jpg"
+        alt="Product Preview"
+        className="w-full h-full object-cover"
+      />
+    </div>
+    <div className="bg-white rounded-b-xl shadow-md py-3 px-4 text-center">
+      <h4 className="text-base md:text-lg font-bold text-[#111827]">
+        100+ Ready-to-Post Viral ASMR Reels
+      </h4>
+    </div>
+  </div>
+</div>
+
 
             {/* 10 Product Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
