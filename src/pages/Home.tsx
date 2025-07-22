@@ -488,19 +488,19 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        {/* 100% Satisfaction Guarantee Section */}
-        <div className="mb-16 px-4 max-w-4xl mx-auto">
-          <div className="w-full bg-gradient-to-b from-[#6C63FF] to-[#3B82F6] rounded-2xl py-12 px-6 text-center">
-            {/* Image Upload Space */}
-            <div className="mb-8">
-              <div className="w-32 h-32 mx-auto bg-white/20 rounded-full flex items-center justify-center border-2 border-white/30">
-                <div className="text-center">
-                  <div className="text-3xl mb-2 text-white">🛡️</div>
-                  <p className="text-white text-sm font-medium">Guarantee Badge</p>
-                  <p className="text-white/80 text-xs">Upload Here</p>
-                </div>
-              </div>
-            </div>
+       {/* 100% Satisfaction Guarantee Section */}
+<div className="mb-16 px-4 max-w-4xl mx-auto">
+  <div className="w-full bg-gradient-to-b from-[#6C63FF] to-[#3B82F6] rounded-2xl py-12 px-6 text-center">
+    {/* Image Upload Space */}
+    <div className="mb-8">
+      <div className="w-32 h-32 mx-auto bg-white/20 rounded-full flex items-center justify-center border-2 border-white/30 overflow-hidden">
+        <img
+          src="/istockphoto-1419641017-612x612.jpg"  // <-- Replace this with your actual file name
+          alt="Guarantee Badge"
+          className="w-full h-full object-contain"
+        />
+      </div>
+    </div>
 
             {/* Heading */}
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
