@@ -495,12 +495,13 @@ const Home: React.FC = () => {
     <div className="mb-8">
       <div className="w-32 h-32 mx-auto bg-white/20 rounded-full flex items-center justify-center border-2 border-white/30 overflow-hidden">
         <img
-          src="/istockphoto-1419641017-612x612.jpg"  // <-- Replace this with your actual file name
+          src="/guarantee-badge.png"  // Replace this with the actual image path
           alt="Guarantee Badge"
-          className="w-full h-full object-contain"
+          className="w-full h-full object-cover"
         />
       </div>
     </div>
+
 
             {/* Heading */}
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
