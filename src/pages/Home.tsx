@@ -31,11 +31,18 @@ const Home: React.FC = () => {
         </p>
 
         {/* Call-to-Action Button */}
-        <div className="mb-6">
-          <button className="bg-gradient-to-r from-indigo-600 to-purple-400 text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 inline-flex items-center gap-2 animate-dramatic-shake">
-            ⚡ Order Now at <span className="line-through text-gray-200">₹599</span> ₹299
-          </button>
-        </div>
+<div className="mb-6">
+  <a
+    href="https://superprofile.bio/vp/10k-month-faceless-asmr-kit"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="bg-gradient-to-r from-indigo-600 to-purple-400 text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 inline-flex items-center gap-2 animate-dramatic-shake">
+      ⚡ Order Now at <span className="line-through text-gray-200">₹599</span> ₹299
+    </button>
+  </a>
+</div>
+
 
         {/* Star Rating Block */}
         <div className="mb-8">
