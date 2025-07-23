@@ -699,7 +699,7 @@ const Home: React.FC = () => {
         {/* Final CTA Button */}
 <div className="text-center">
   <a
-    href="https://your-payment-link.com" // 🔁 Replace with your actual payment URL
+    href="https://superprofile.bio/vp/10k-month-faceless-asmr-kit" // 🔁 Replace with your actual payment URL
     target="_blank"
     rel="noopener noreferrer"
   >
