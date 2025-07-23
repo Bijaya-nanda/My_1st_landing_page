@@ -696,18 +696,13 @@ const Home: React.FC = () => {
             </p>
           </div>
 
-         {/* Final CTA Button */}
-<div className="text-center">
-  <a
-    href="https://superprofile.bio/vp/10k-month-faceless-asmr-kit" // 🔁 Replace with your actual payment URL
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <button className="bg-gradient-to-r from-indigo-600 to-purple-400 text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 inline-flex items-center gap-2 animate-dramatic-shake">
-      👉 Order Now & Start Instantly
-    </button>
-  </a>
-</div>
+        {/* Final CTA Button */}
+          <div className="text-center">
+            <button className="bg-gradient-to-r from-indigo-600 to-purple-400 text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 inline-flex items-center gap-2 animate-dramatic-shake">
+              👉 Order Now & Start Instantly
+            </button>
+          </div>
+        </div>
 
 
         {/* FAQ Section */}
