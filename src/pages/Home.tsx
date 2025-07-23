@@ -579,14 +579,22 @@ const Home: React.FC = () => {
             </div>
 
             {/* Final CTA Button */}
-            <div className="mb-4">
-              <button className="w-full max-w-lg mx-auto bg-gradient-to-r from-green-500 to-green-600 text-white font-bold text-lg md:text-xl px-8 py-6 rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2">
-                <span>👉 Yes, I Want the AI ASMR Empire Kit</span>
-              </button>
-              <p className="text-white/80 text-sm mt-2 font-medium">
-                [Instant Download + Join Community]
-              </p>
-            </div>
+<div className="mb-4">
+  <a
+    href="https://superprofile.bio/vp/10k-month-faceless-asmr-kit" // Replace with your actual payment URL
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full max-w-lg mx-auto block"
+  >
+    <button className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white font-bold text-lg md:text-xl px-8 py-6 rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2">
+      <span>👉 Yes, I Want the AI ASMR Empire Kit</span>
+    </button>
+  </a>
+  <p className="text-white/80 text-sm mt-2 font-medium">
+    [Instant Download + Join Community]
+  </p>
+</div>
+
 
             {/* Trust Badge */}
             <div className="flex items-center justify-center gap-2 text-white/70 text-sm">
@@ -688,13 +696,19 @@ const Home: React.FC = () => {
             </p>
           </div>
 
-          {/* Final CTA Button */}
-          <div className="text-center">
-            <button className="bg-gradient-to-r from-indigo-600 to-purple-400 text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 inline-flex items-center gap-2 animate-dramatic-shake">
-              👉 Order Now & Start Instantly
-            </button>
-          </div>
-        </div>
+         {/* Final CTA Button */}
+<div className="text-center">
+  <a
+    href="https://superprofile.bio/vp/10k-month-faceless-asmr-kit" // 🔁 Replace with your actual payment URL
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="bg-gradient-to-r from-indigo-600 to-purple-400 text-white font-bold text-lg md:text-xl px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 inline-flex items-center gap-2 animate-dramatic-shake">
+      👉 Order Now & Start Instantly
+    </button>
+  </a>
+</div>
+
 
         {/* FAQ Section */}
         <FAQSection />
