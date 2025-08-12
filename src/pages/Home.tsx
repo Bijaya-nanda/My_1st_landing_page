@@ -461,7 +461,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
               <p className="text-sm font-semibold text-gray-600 text-center">
-                "Got 2.3M views in 4 days 😭"
+                "Got 2.3M views in 9 days 😭"
               </p>
             </div>
 
@@ -475,7 +475,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
               <p className="text-sm font-semibold text-gray-600 text-center">
-                "First sale within 48 hours!"
+                "Got 3k followers in a week!"
               </p>
             </div>
 
@@ -503,7 +503,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
               <p className="text-sm font-semibold text-gray-600 text-center">
-                "Made ₹15K in my first week!"
+                "Made ₹15K in my first month!"
               </p>
             </div>
           </div>
