@@ -29,7 +29,7 @@ const TermsConditions: React.FC = () => {
               Welcome to corekits.store!
             </p>
             <p className="text-gray-700 leading-relaxed mb-6">
-              These terms and conditions outline the rules and regulations for the use of Corekits Website, located at //https://corekits.store//.
+              These terms and conditions outline the rules and regulations for the use of Corekits Website, located at https://corekits.store//.
             </p>
             <p className="text-gray-700 leading-relaxed mb-6">
               By accessing this website we assume you accept these terms and conditions. Do not continue to use Corekits's if you do not agree to take all of the terms and conditions stated on this page.
