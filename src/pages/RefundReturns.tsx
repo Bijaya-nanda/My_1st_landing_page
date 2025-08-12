@@ -1,50 +1,31 @@
-import React from 'react';
-import { ArrowLeft } from 'lucide-react';
-import { Link } from 'react-router-dom';
-
-const RefundReturns: React.FC = () => {
+export default function RefundReturns() {
   return (
-    <div className="min-h-screen bg-gray-50" style={{ fontFamily: 'Inter Tight, sans-serif' }}>
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        {/* Back Button */}
-        <Link 
-          to="/" 
-          className="inline-flex items-center gap-2 text-indigo-600 hover:text-indigo-700 font-medium mb-8 transition-colors duration-200"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Back to Home
-        </Link>
+    <div className="container mx-auto px-4 py-8 max-w-4xl">
+      <h1 className="text-3xl font-bold mb-6 text-center">Refund and Returns Policy</h1>
 
-        {/* Page Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Refund and Returns Policy
-          </h1>
-        </div>
+      <div className="prose prose-lg">
+        <section className="mb-8">
+          <p className="mb-4">
+            Since https://[YourDomainName].com/ offers non-tangible irrevocable goods we do not issue refunds once the order is accomplished and the product download will be available and accessible via mail or download. The nature of digital media means that once you have downloaded a product there's really no way to 'return' it. So all payments at this website are non refundable and any request or dispute will be rejected without any communication.
+          </p>
+          <p className="mb-4">
+            As a customer you are responsible for understanding this upon purchasing any item at our site. There will be no refund if the product or service is downloadable or usable online in real-time and our records shows that product or service has been downloaded or used through our system.
+          </p>
+          <p className="mb-4">
+            We stand behind our products and your satisfaction with them is important to us. However, because our products are digital goods delivered via Internet download we generally offer no refunds. However, we realize that exceptional circumstance can take place with regard to the character of the product we supply.
+          </p>
+        </section>
 
-        {/* Content */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-          <div className="prose prose-lg max-w-none">
-            <p className="text-gray-700 leading-relaxed mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-6">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-6">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-6">
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-            </p>
-          </div>
-        </div>
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold mb-4">Download and Unzipping Issues</h2>
+          <p className="mb-4">
+            It may happen so that you are having problems while downloading the product or its unzipping. Claims regarding such issues must be submitted within 24 hours. If you do not properly contact us during this period, you agree that we may construe silence as a successful download of the product with no further right of redress or refund for a "download issue" reason.
+          </p>
+          <p className="mb-4">
+            In case the if you have not able unzip the product, please contact us immediately. We will be happy to mail you the product to download. please contact us on <a href="mailto:hello@yourdomain.com" className="text-blue-600 hover:underline">hello@[YourDomainName].com</a> for the same.
+          </p>
+        </section>
       </div>
     </div>
   );
-};
-
-export default RefundReturns;
+}
