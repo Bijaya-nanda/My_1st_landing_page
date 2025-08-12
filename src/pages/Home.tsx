@@ -631,12 +631,12 @@ const Home: React.FC = () => {
               
               {/* Step Title */}
               <h4 className="text-lg md:text-xl font-bold text-gray-800 mb-3">
-                STEP 1 — Click Buy Now!
+                STEP 1 — Click Order Now!
               </h4>
               
               {/* Step Description */}
               <p className="text-gray-600 leading-relaxed">
-                Click on the Buy Now button below and you'll be redirected to the payment page. Just fill in your details and complete the payment.
+                Click on the Order Now button below and you'll be redirected to the payment page. Just fill in your details and complete the payment.
               </p>
             </div>
 
