@@ -469,7 +469,7 @@ const Home: React.FC = () => {
             <div className="bg-white rounded-2xl p-4 shadow-lg">
   <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
     <img 
-      src="/testi1.png" 
+      src="/testi1.jpg" 
       alt="WhatsApp Screenshot 1" 
       className="w-full h-full object-cover rounded-xl" 
     />
