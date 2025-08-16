@@ -3,6 +3,8 @@ import CountdownTimer from '../components/CountdownTimer';
 import FAQSection from '../components/FAQSection';
 import PeopleWatching from '../components/PeopleWatching';
 import WhatsAppButton from '../components/WhatsAppButton';
+import VideoSection from "../components/VideoSection";
+
 
 const Home: React.FC = () => {
   return (
@@ -220,19 +222,7 @@ const Home: React.FC = () => {
         <div className="mb-6"></div>
 
         {/* Video Player Section */}
-        <div className="mb-16">
-          <div className="w-full max-w-4xl mx-auto">
-            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-              <div className="absolute inset-0 bg-gray-200 rounded-lg shadow-lg flex items-center justify-center">
-                <div className="text-center p-6">
-                  <div className="text-6xl mb-4">▶️</div>
-                  <p className="text-gray-600 font-medium text-lg">YouTube Video Player</p>
-                  <p className="text-sm text-gray-500 mt-2">16:9 Aspect Ratio</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <VideoSection />
 
         {/* Everything You'll Get Inside Section */}
         <div className="mb-16 w-full">
