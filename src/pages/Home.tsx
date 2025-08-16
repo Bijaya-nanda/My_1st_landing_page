@@ -467,17 +467,18 @@ const Home: React.FC = () => {
 
             {/* Testimonial 2 */}
             <div className="bg-white rounded-2xl p-4 shadow-lg">
-              <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3">
-                <div className="text-center p-4">
-                  <div className="text-3xl mb-3">💬</div>
-                  <p className="text-gray-600 font-medium text-sm">WhatsApp Screenshot 2</p>
-                  <p className="text-xs text-gray-500 mt-1">Mobile 9:16 Ratio</p>
-                </div>
-              </div>
-              <p className="text-sm font-semibold text-gray-600 text-center">
-                "Got 3k followers in a week!"
-              </p>
-            </div>
+  <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
+    <img 
+      src="/testi1.png" 
+      alt="WhatsApp Screenshot 1" 
+      className="w-full h-full object-cover rounded-xl" 
+    />
+  </div>
+  <p className="text-sm font-semibold text-gray-600 text-center">
+    "Got 2.3M views in 9 days 😭"
+  </p>
+</div>
+
 
             {/* Testimonial 3 */}
             <div className="bg-white rounded-2xl p-4 shadow-lg">
