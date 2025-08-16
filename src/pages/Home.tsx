@@ -453,17 +453,18 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Testimonial 1 */}
             <div className="bg-white rounded-2xl p-4 shadow-lg">
-              <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3">
-                <div className="text-center p-4">
-                  <div className="text-3xl mb-3">💬</div>
-                  <p className="text-gray-600 font-medium text-sm">WhatsApp Screenshot 1</p>
-                  <p className="text-xs text-gray-500 mt-1">Mobile 9:16 Ratio</p>
-                </div>
-              </div>
-              <p className="text-sm font-semibold text-gray-600 text-center">
-                "Got 2.3M views in 9 days 😭"
-              </p>
-            </div>
+  <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
+    <img 
+      src="/testi2.jpg" 
+      alt="WhatsApp Screenshot 1" 
+      className="w-full h-full object-cover rounded-xl" 
+    />
+  </div>
+  <p className="text-sm font-semibold text-gray-600 text-center">
+    "Got 2.3M views in 9 days 😭"
+  </p>
+</div>
+
 
             {/* Testimonial 2 */}
             <div className="bg-white rounded-2xl p-4 shadow-lg">
@@ -475,25 +476,24 @@ const Home: React.FC = () => {
     />
   </div>
   <p className="text-sm font-semibold text-gray-600 text-center">
-    "Got 2.3M views in 9 days 😭"
+    "Got 3k followers in a week!"
   </p>
 </div>
 
 
             {/* Testimonial 3 */}
             <div className="bg-white rounded-2xl p-4 shadow-lg">
-              <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3">
-                <div className="text-center p-4">
-                  <div className="text-3xl mb-3">💬</div>
-                  <p className="text-gray-600 font-medium text-sm">WhatsApp Screenshot 3</p>
-                  <p className="text-xs text-gray-500 mt-1">Mobile 9:16 Ratio</p>
-                </div>
-              </div>
-              <p className="text-sm font-semibold text-gray-600 text-center">
-                "This actually works! 🔥"
-              </p>
-            </div>
-
+  <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
+    <img 
+      src="/testi2.jpg" 
+      alt="WhatsApp Screenshot 1" 
+      className="w-full h-full object-cover rounded-xl" 
+    />
+  </div>
+  <p className="text-sm font-semibold text-gray-600 text-center">
+    "This actually works! 🔥"
+  </p>
+</div>
             {/* Testimonial 4 */}
             <div className="bg-white rounded-2xl p-4 shadow-lg">
               <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3">
@@ -622,13 +622,14 @@ const Home: React.FC = () => {
             {/* Step 1 */}
             <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 text-center">
               {/* Illustration Placeholder */}
-              <div className="w-full aspect-[2/1] bg-gray-100 rounded-lg mb-4 flex items-center justify-center border border-gray-200">
-                <div className="text-center p-4">
-                  <div className="text-2xl mb-2 text-gray-400">🖼️</div>
-                  <p className="text-gray-500 font-medium text-sm">Insert Illustration Here</p>
-                  <p className="text-gray-400 text-xs mt-1">600x300 px</p>
-                </div>
-              </div>
+              <div className="w-full aspect-[2/1] bg-gray-100 rounded-lg mb-4 flex items-center justify-center border border-gray-200 overflow-hidden">
+  <img 
+    src="/step1.jpg" 
+    alt="AI ASMR BUNDLES" 
+    className="w-full h-full object-cover rounded-lg" 
+  />
+</div>
+
               
               {/* Step Title */}
               <h4 className="text-lg md:text-xl font-bold text-gray-800 mb-3">
@@ -644,13 +645,14 @@ const Home: React.FC = () => {
             {/* Step 2 */}
             <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 text-center">
               {/* Illustration Placeholder */}
-              <div className="w-full aspect-[2/1] bg-gray-100 rounded-lg mb-4 flex items-center justify-center border border-gray-200">
-                <div className="text-center p-4">
-                  <div className="text-2xl mb-2 text-gray-400">🖼️</div>
-                  <p className="text-gray-500 font-medium text-sm">Insert Illustration Here</p>
-                  <p className="text-gray-400 text-xs mt-1">600x300 px</p>
-                </div>
-              </div>
+              <div className="w-full aspect-[2/1] bg-gray-100 rounded-lg mb-4 flex items-center justify-center border border-gray-200 overflow-hidden">
+  <img 
+    src="/step2.jpg" 
+    alt="VIRAL AI REELS" 
+    className="w-full h-full object-cover rounded-lg" 
+  />
+</div>
+
               
               {/* Step Title */}
               <h4 className="text-lg md:text-xl font-bold text-gray-800 mb-3">
@@ -666,13 +668,14 @@ const Home: React.FC = () => {
             {/* Step 3 */}
             <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 text-center">
               {/* Illustration Placeholder */}
-              <div className="w-full aspect-[2/1] bg-gray-100 rounded-lg mb-4 flex items-center justify-center border border-gray-200">
-                <div className="text-center p-4">
-                  <div className="text-2xl mb-2 text-gray-400">🖼️</div>
-                  <p className="text-gray-500 font-medium text-sm">Insert Illustration Here</p>
-                  <p className="text-gray-400 text-xs mt-1">600x300 px</p>
-                </div>
-              </div>
+              <div className="w-full aspect-[2/1] bg-gray-100 rounded-lg mb-4 flex items-center justify-center border border-gray-200 overflow-hidden">
+  <img 
+    src="/step3.jpg" 
+    alt="AI BUSINESS FULL GUIDE" 
+    className="w-full h-full object-cover rounded-lg" 
+  />
+</div>
+
               
               {/* Step Title */}
               <h4 className="text-lg md:text-xl font-bold text-gray-800 mb-3">
