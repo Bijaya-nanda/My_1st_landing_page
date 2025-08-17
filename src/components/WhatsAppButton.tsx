@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
-import { FaWhatsapp } from 'react-icons/fa';  // ✅ Official WhatsApp Icon
+import { FaWhatsapp } from 'react-icons/fa'; // ✅ Official WhatsApp icon
 
 const WhatsAppButton: React.FC = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Show button with animation after a short delay
     const timer = setTimeout(() => {
       setIsVisible(true);
     }, 1000);
-
     return () => clearTimeout(timer);
   }, []);
 
@@ -34,10 +32,10 @@ const WhatsAppButton: React.FC = () => {
       >
         <button
           onClick={togglePopup}
-          className="relative bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center group"
+          className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center group"
           aria-label="Open WhatsApp Chat"
         >
-          <FaWhatsapp className="w-6 h-6" /> {/* ✅ Replaced icon */}
+          <FaWhatsapp className="w-6 h-6" /> {/* ✅ only icon changed */}
 
           {/* Pulse animation */}
           <div className="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-20"></div>
@@ -55,7 +53,7 @@ const WhatsAppButton: React.FC = () => {
             <div className="bg-green-500 px-4 py-3 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                  <FaWhatsapp className="w-5 h-5 text-green-500" /> {/* ✅ Replaced icon */}
+                  <FaWhatsapp className="w-5 h-5 text-green-500" /> {/* ✅ only icon changed */}
                 </div>
                 <div>
                   <h3 className="text-white font-bold text-sm">Corekits Support</h3>
