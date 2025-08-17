@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { MessageCircle, X } from 'lucide-react';
+import { X } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';  // ✅ Official WhatsApp Icon
 
 const WhatsAppButton: React.FC = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -33,11 +34,11 @@ const WhatsAppButton: React.FC = () => {
       >
         <button
           onClick={togglePopup}
-          className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center group"
+          className="relative bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center group"
           aria-label="Open WhatsApp Chat"
         >
-          <MessageCircle className="w-6 h-6" />
-          
+          <FaWhatsapp className="w-6 h-6" /> {/* ✅ Replaced icon */}
+
           {/* Pulse animation */}
           <div className="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-20"></div>
         </button>
@@ -54,7 +55,7 @@ const WhatsAppButton: React.FC = () => {
             <div className="bg-green-500 px-4 py-3 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                  <MessageCircle className="w-5 h-5 text-green-500" />
+                  <FaWhatsapp className="w-5 h-5 text-green-500" /> {/* ✅ Replaced icon */}
                 </div>
                 <div>
                   <h3 className="text-white font-bold text-sm">Corekits Support</h3>
