@@ -45,17 +45,6 @@ const Home: React.FC = () => {
   </a>
 </div>
 
-
-        {/* Star Rating Block */}
-        <div className="mb-8">
-          <div className="flex justify-center items-center gap-1 mb-2">
-            <span className="text-2xl">⭐⭐⭐⭐⭐</span>
-          </div>
-          <p className="text-base font-medium text-gray-600">
-            Rated 4.7 out of 5. (1043+ Verified Customers)
-          </p>
-        </div>
-
         {/* 100% Satisfaction Section */}
 <div className="mb-6">
   <div className="flex justify-center">
@@ -86,6 +75,18 @@ const Home: React.FC = () => {
   </div>
 </div>
 
+
+        {/* Star Rating Block */}
+        <div className="mb-8">
+          <div className="flex justify-center items-center gap-1 mb-2">
+            <span className="text-2xl">⭐⭐⭐⭐⭐</span>
+          </div>
+          <p className="text-base font-medium text-gray-600">
+            Rated 4.7 out of 5. (1043+ Verified Customers)
+          </p>
+        </div>
+
+        
 
         {/* Persistent Countdown Timer */}
         <CountdownTimer className="mb-8" />
@@ -246,7 +247,37 @@ const Home: React.FC = () => {
   </a>
 </div>
 
+        {/* 100% Satisfaction Section */}
+<div className="mb-6">
+  <div className="flex justify-center">
+    <div className="inline-flex items-center gap-3 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-xl px-4 py-3 shadow-sm">
+      <div className="w-9 h-9 rounded-full bg-green-100 flex items-center justify-center">
+        {/* Shield check icon (inline SVG, no extra deps) */}
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="w-5 h-5 text-green-600"
+          aria-hidden="true"
+        >
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
+          <path d="M9 12l2 2 4-4"></path>
+        </svg>
+      </div>
+      <div className="text-left">
+        <p className="font-semibold text-gray-800">100% Satisfaction Guarantee</p>
+        <p className="text-sm text-gray-600">
+          Instant access. Secure checkout. Friendly support on WhatsApp.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
+        
         {/* Second Countdown Timer */}
         <CountdownTimer className="mb-8" />
         <PeopleWatching />
@@ -736,6 +767,36 @@ const Home: React.FC = () => {
 
         </div>
 
+
+        {/* 100% Satisfaction Section */}
+<div className="mb-6">
+  <div className="flex justify-center">
+    <div className="inline-flex items-center gap-3 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-xl px-4 py-3 shadow-sm">
+      <div className="w-9 h-9 rounded-full bg-green-100 flex items-center justify-center">
+        {/* Shield check icon (inline SVG, no extra deps) */}
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="w-5 h-5 text-green-600"
+          aria-hidden="true"
+        >
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
+          <path d="M9 12l2 2 4-4"></path>
+        </svg>
+      </div>
+      <div className="text-left">
+        <p className="font-semibold text-gray-800">100% Satisfaction Guarantee</p>
+        <p className="text-sm text-gray-600">
+          Instant access. Secure checkout. Friendly support on WhatsApp.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* FAQ Section */}
         <FAQSection />
