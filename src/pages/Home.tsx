@@ -522,7 +522,7 @@ const Home: React.FC = () => {
             <div className="bg-white rounded-2xl p-4 shadow-lg">
   <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
     <img 
-      src="/testi1.jpg" 
+      src="/testi4.jpg" 
       alt="WhatsApp Screenshot 1" 
       className="w-full h-full object-cover rounded-xl" 
     />
@@ -537,7 +537,7 @@ const Home: React.FC = () => {
             <div className="bg-white rounded-2xl p-4 shadow-lg">
   <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
     <img 
-      src="/testi0.jpg" 
+      src="/testi1.jpg" 
       alt="WhatsApp Screenshot 1" 
       className="w-full h-full object-cover rounded-xl" 
     />
@@ -548,19 +548,17 @@ const Home: React.FC = () => {
 </div>
             {/* Testimonial 4 */}
             <div className="bg-white rounded-2xl p-4 shadow-lg">
-              <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3">
-                <div className="text-center p-4">
-                  <div className="text-3xl mb-3">💬</div>
-                  <p className="text-gray-600 font-medium text-sm">WhatsApp Screenshot 4</p>
-                  <p className="text-xs text-gray-500 mt-1">Mobile 9:16 Ratio</p>
-                </div>
-              </div>
-              <p className="text-sm font-semibold text-gray-600 text-center">
-                "Made ₹15K in my first month!"
-              </p>
-            </div>
-          </div>
-        </div>
+  <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
+    <img 
+      src="/testi3.jpg" 
+      alt="WhatsApp Screenshot 1" 
+      className="w-full h-full object-cover rounded-xl" 
+    />
+  </div>
+  <p className="text-sm font-semibold text-gray-600 text-center">
+    "Made ₹15K in my first month!"
+  </p>
+</div>
 
        {/* 100% Satisfaction Guarantee Section */}
 <div className="mb-16 px-4 max-w-4xl mx-auto">
