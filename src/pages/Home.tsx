@@ -492,73 +492,76 @@ const Home: React.FC = () => {
         </div>
 
         {/* Customer Testimonials Section */}
-        <div className="mb-16 px-4 max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
-              What Our Customers Are Saying 💬
-            </h3>
-            <p className="text-lg text-gray-600 font-medium">
-              (Real Feedback. Real Results.)
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Testimonial 1 */}
-            <div className="bg-white rounded-2xl p-4 shadow-lg">
-  <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
-    <img 
-      src="/testi0.jpg" 
-      alt="WhatsApp Screenshot 1" 
-      className="w-full h-full object-cover rounded-xl" 
-    />
+<div className="mb-16 px-4 max-w-4xl mx-auto">
+  <div className="text-center mb-12">
+    <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
+      What Our Customers Are Saying 💬
+    </h3>
+    <p className="text-lg text-gray-600 font-medium">
+      (Real Feedback. Real Results.)
+    </p>
   </div>
-  <p className="text-sm font-semibold text-gray-600 text-center">
-    "Got 2.3M views in 9 days 😭"
-  </p>
-</div>
 
+  {/* Testimonials Grid */}
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {/* Testimonial 1 */}
+    <div className="bg-white rounded-2xl p-4 shadow-lg">
+      <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
+        <img
+          src="/testi0.jpg"
+          alt="WhatsApp Screenshot 1"
+          className="w-full h-full object-cover rounded-xl"
+        />
+      </div>
+      <p className="text-sm font-semibold text-gray-600 text-center">
+        "Got 2.6M views in 9 days 😭"
+      </p>
+    </div>
 
-            {/* Testimonial 2 */}
-            <div className="bg-white rounded-2xl p-4 shadow-lg">
-  <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
-    <img 
-      src="/testi4.jpg" 
-      alt="WhatsApp Screenshot 1" 
-      className="w-full h-full object-cover rounded-xl" 
-    />
-  </div>
-  <p className="text-sm font-semibold text-gray-600 text-center">
-    "Got 3k followers in a week!"
-  </p>
-</div>
+    {/* Testimonial 2 */}
+    <div className="bg-white rounded-2xl p-4 shadow-lg">
+      <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
+        <img
+          src="/testi4.jpg"
+          alt="WhatsApp Screenshot 2"
+          className="w-full h-full object-cover rounded-xl"
+        />
+      </div>
+      <p className="text-sm font-semibold text-gray-600 text-center">
+        "Got 3k followers in a week!"
+      </p>
+    </div>
 
+    {/* Testimonial 3 */}
+    <div className="bg-white rounded-2xl p-4 shadow-lg">
+      <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
+        <img
+          src="/testi1.jpg"
+          alt="WhatsApp Screenshot 3"
+          className="w-full h-full object-cover rounded-xl"
+        />
+      </div>
+      <p className="text-sm font-semibold text-gray-600 text-center">
+        "This actually works! 🔥"
+      </p>
+    </div>
 
-            {/* Testimonial 3 */}
-            <div className="bg-white rounded-2xl p-4 shadow-lg">
-  <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
-    <img 
-      src="/testi1.jpg" 
-      alt="WhatsApp Screenshot 1" 
-      className="w-full h-full object-cover rounded-xl" 
-    />
-  </div>
-  <p className="text-sm font-semibold text-gray-600 text-center">
-    "This actually works! 🔥"
-  </p>
-</div>
-            {/* Testimonial 4 */}
-            <div className="bg-white rounded-2xl p-4 shadow-lg">
-  <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
-    <img 
-      src="/testi3.jpg" 
-      alt="WhatsApp Screenshot 1" 
-      className="w-full h-full object-cover rounded-xl" 
-    />
-  </div>
-  <p className="text-sm font-semibold text-gray-600 text-center">
-    "Made ₹15K in my first month!"
-  </p>
-</div>
+    {/* Testimonial 4 */}
+    <div className="bg-white rounded-2xl p-4 shadow-lg">
+      <div className="w-full aspect-[9/16] bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
+        <img
+          src="/testi3.jpg"
+          alt="WhatsApp Screenshot 4"
+          className="w-full h-full object-cover rounded-xl"
+        />
+      </div>
+      <p className="text-sm font-semibold text-gray-600 text-center">
+        "Made ₹15K in my first month!"
+      </p>
+    </div>
+  </div> {/* <-- closed grid */}
+</div> {/* <-- closed outer section */}
+
 
        {/* 100% Satisfaction Guarantee Section */}
 <div className="mb-16 px-4 max-w-4xl mx-auto">
