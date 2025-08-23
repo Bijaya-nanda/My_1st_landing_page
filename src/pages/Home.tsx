@@ -567,7 +567,7 @@ const Home: React.FC = () => {
     <div className="mb-8">
       <div className="w-32 h-32 mx-auto bg-white/20 rounded-full flex items-center justify-center border-2 border-white/30 overflow-hidden">
         <img
-          src="/productgurantee.jpg"  // Replace this with the actual image path
+          src="/productgurantee.jpg"  // Replace this with the actual image path 
           alt="Guarantee Badge"
           className="w-full h-full object-cover"
         />
